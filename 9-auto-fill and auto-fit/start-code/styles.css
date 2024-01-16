@@ -3,5 +3,8 @@
 /* lesson styles */
 
 .container {
-  display: grid;
+	display: grid;
+	border: 5px solid black;
+	/* grid-template-columns: repeat(auto-fill, 150px); */
+	grid-template-columns: repeat(auto-fit, 150px);
 }
